@@ -3,6 +3,7 @@ import { StatusBar, Text, View } from 'react-native';
 import styles from './Style';
 import { BatLogo } from '../../components/BatLogo/BatLogo';
 import { BatTextInput } from '../../components/BatTextInput/BatTextInput';
+import { BatButton } from '../../components/BatButton/BatButton';
 
 
 export default function Home() {
@@ -16,7 +17,10 @@ export default function Home() {
 
     <View style={styles.inputContainer}>
       <BatTextInput/>
+       <BatButton/>
     </View>
+
+  
 
   </View>
  )
