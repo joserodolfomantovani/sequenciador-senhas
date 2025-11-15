@@ -2,6 +2,7 @@ import React from 'react'
 import { StatusBar, Text, View } from 'react-native';
 import styles from './Style';
 import { BatLogo } from '../../components/BatLogo/BatLogo';
+import { BatTextInput } from '../../components/BatTextInput/BatTextInput';
 
 
 export default function Home() {
@@ -13,8 +14,9 @@ export default function Home() {
      <BatLogo/>
     </View> 
 
-    <Text>Opens up App.tsx to start working on your app!</Text>
- 
+    <View style={styles.inputContainer}>
+      <BatTextInput/>
+    </View>
 
   </View>
  )

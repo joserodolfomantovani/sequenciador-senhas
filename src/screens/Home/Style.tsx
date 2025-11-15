@@ -18,6 +18,11 @@ const styles  = StyleSheet.create({
        paddingBottom:10,
        backgroundColor:'#4d4d4d'
 
+    },
+    inputContainer:{
+      width:'80%',
+      alignItems:'center',
+      flexDirection:'column'
     }
 })
 
